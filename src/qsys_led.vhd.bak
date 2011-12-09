@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity qsys_led is
+	port (
+		clk_clk : in std_logic := '0'  -- clk.clk
+	);
+end entity qsys_led;
+
+architecture rtl of qsys_led is
+
+    component qsys_led is
+        port (
+            clk_clk : in std_logic := 'X'  -- clk
+        );
+    end component qsys_led;
+
+    u0 : component qsys_led
+        port map (
+            clk_clk => CONNECTED_TO_clk_clk  -- clk.clk
+        );
+end rtl;

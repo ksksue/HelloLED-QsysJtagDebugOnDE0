@@ -1,0 +1,46 @@
+# system info qsys_led_tb on 2011.12.10.02:26:28
+system_info:
+name,value
+DEVICE,
+DEVICE_FAMILY,Cyclone III
+GENERATION_ID,1323451437
+#
+#
+# Files generated for qsys_led_tb on 2011.12.10.02:26:28
+files:
+filepath,kind,attributes,module,is_top
+qsys_led/testbench/qsys_led_tb/simulation/qsys_led_tb.vhd,VHDL,,qsys_led_tb,true
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led.vhd,VHDL,,qsys_led,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/altera_avalon_clock_source.vhd,VHDL,,altera_avalon_clock_source,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_pio_0.vhd,VHDL,,qsys_led_pio_0,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0.vhd,VHDL,,qsys_led_master_0,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_master_translator.vho,VHDL,,qsys_led_master_0_master_translator,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_pio_0_s1_translator.vho,VHDL,,qsys_led_pio_0_s1_translator,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_rst_controller.vho,VHDL,,qsys_led_rst_controller,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_jtag_phy_embedded_in_jtag_master.vho,VHDL,,qsys_led_master_0_jtag_phy_embedded_in_jtag_master,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_timing_adt.vho,VHDL,,qsys_led_master_0_timing_adt,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_fifo.vho,VHDL,,qsys_led_master_0_fifo,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_b2p.vho,VHDL,,qsys_led_master_0_b2p,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_p2b.vho,VHDL,,qsys_led_master_0_p2b,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_transacto.vho,VHDL,,qsys_led_master_0_transacto,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_b2p_adapter.vho,VHDL,,qsys_led_master_0_b2p_adapter,false
+qsys_led/testbench/qsys_led_tb/simulation/submodules/qsys_led_master_0_p2b_adapter.vho,VHDL,,qsys_led_master_0_p2b_adapter,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+qsys_led_tb.qsys_led_inst,qsys_led
+qsys_led_tb.qsys_led_inst.pio_0,qsys_led_pio_0
+qsys_led_tb.qsys_led_inst.master_0,qsys_led_master_0
+qsys_led_tb.qsys_led_inst.master_0.jtag_phy_embedded_in_jtag_master,qsys_led_master_0_jtag_phy_embedded_in_jtag_master
+qsys_led_tb.qsys_led_inst.master_0.timing_adt,qsys_led_master_0_timing_adt
+qsys_led_tb.qsys_led_inst.master_0.fifo,qsys_led_master_0_fifo
+qsys_led_tb.qsys_led_inst.master_0.b2p,qsys_led_master_0_b2p
+qsys_led_tb.qsys_led_inst.master_0.p2b,qsys_led_master_0_p2b
+qsys_led_tb.qsys_led_inst.master_0.transacto,qsys_led_master_0_transacto
+qsys_led_tb.qsys_led_inst.master_0.b2p_adapter,qsys_led_master_0_b2p_adapter
+qsys_led_tb.qsys_led_inst.master_0.p2b_adapter,qsys_led_master_0_p2b_adapter
+qsys_led_tb.qsys_led_inst.master_0_master_translator,qsys_led_master_0_master_translator
+qsys_led_tb.qsys_led_inst.pio_0_s1_translator,qsys_led_pio_0_s1_translator
+qsys_led_tb.qsys_led_inst.rst_controller,qsys_led_rst_controller
+qsys_led_tb.qsys_led_inst_clk_bfm,altera_avalon_clock_source

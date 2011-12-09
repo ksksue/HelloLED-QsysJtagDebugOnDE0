@@ -1,0 +1,72 @@
+set_global_assignment -entity "qsys_led" -library "lib_qsys_led" -name IP_TOOL_NAME "qsys"
+set_global_assignment -entity "qsys_led" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -library "lib_qsys_led" -name MISC_FILE [file join $::quartus(qip_path) ../../qsys_led.sopcinfo]
+set_instance_assignment -entity "qsys_led" -library "lib_qsys_led" -name SLD_INFO "QSYS_NAME qsys_led HAS_SOPCINFO 1 GENERATION_ID 1323452467"
+set_global_assignment -library "lib_qsys_led" -name MISC_FILE [file join $::quartus(qip_path) ../../qsys_led.qsys]
+
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) qsys_led.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_reset_controller.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_reset_synchronizer.v]
+set_global_assignment -library "lib_qsys_led" -name SDC_FILE [file join $::quartus(qip_path) submodules/altera_reset_controller.sdc]
+set_global_assignment -library "lib_qsys_led" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) submodules/altera_merlin_slave_translator.sv]
+set_global_assignment -library "lib_qsys_led" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) submodules/altera_merlin_master_translator.sv]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/qsys_led_master_0.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/qsys_led_master_0_p2b_adapter.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/qsys_led_master_0_b2p_adapter.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_packets_to_master.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_packets_to_bytes.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_bytes_to_packets.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_sc_fifo.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/qsys_led_master_0_timing_adt.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_jtag_interface.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_jtag_dc_streaming.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_jtag_sld_node.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_jtag_streaming.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_pli_streaming.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_clock_crosser.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_pipeline_base.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_idle_remover.v]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_idle_inserter.v]
+set_global_assignment -library "lib_qsys_led" -name SDC_FILE [file join $::quartus(qip_path) submodules/altera_avalon_st_jtag_interface.sdc]
+set_global_assignment -library "lib_qsys_led" -name VERILOG_FILE [file join $::quartus(qip_path) submodules/qsys_led_led.v]
+
+set_global_assignment -entity "altera_reset_controller" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_reset_controller" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_merlin_master_translator" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "qsys_led_master_0" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_jtag_avalon_master"
+set_global_assignment -entity "qsys_led_master_0" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led_master_0" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "qsys_led_master_0_p2b_adapter" -library "lib_qsys_led" -name IP_TOOL_NAME "channel_adapter"
+set_global_assignment -entity "qsys_led_master_0_p2b_adapter" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led_master_0_p2b_adapter" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "qsys_led_master_0_b2p_adapter" -library "lib_qsys_led" -name IP_TOOL_NAME "channel_adapter"
+set_global_assignment -entity "qsys_led_master_0_b2p_adapter" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led_master_0_b2p_adapter" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_avalon_packets_to_master"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_avalon_st_packets_to_bytes"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_avalon_st_bytes_to_packets"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_avalon_sc_fifo" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "qsys_led_master_0_timing_adt" -library "lib_qsys_led" -name IP_TOOL_NAME "timing_adapter"
+set_global_assignment -entity "qsys_led_master_0_timing_adt" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led_master_0_timing_adt" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_jtag_dc_streaming"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
+set_global_assignment -entity "qsys_led_led" -library "lib_qsys_led" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "qsys_led_led" -library "lib_qsys_led" -name IP_TOOL_VERSION "11.1"
+set_global_assignment -entity "qsys_led_led" -library "lib_qsys_led" -name IP_TOOL_ENV "qsys"
