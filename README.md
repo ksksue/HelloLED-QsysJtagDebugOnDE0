@@ -19,10 +19,10 @@ Qsysでの使用コンポーネントは
 
 
 
-![qsys](https://lh4.googleusercontent.com/-d_4mSdHjEEo/TuJdll9PGAI/AAAAAAAABqg/CPxf3oecGhw/s800/qsys_led_jtag.png,"qsys")
+![qsys](https://lh4.googleusercontent.com/-d_4mSdHjEEo/TuJdll9PGAI/AAAAAAAABqg/CPxf3oecGhw/s800/qsys_led_jtag.png,"qsys")  
 Fig.1 Qsys System Contents
 
-![syscon](https://lh3.googleusercontent.com/-0PKaJG1hlBg/TuJfA739DRI/AAAAAAAABqg/-r5Py_t7Bd8/s800/qsys_system_console.png,"system console")
+![syscon](https://lh3.googleusercontent.com/-0PKaJG1hlBg/TuJfA739DRI/AAAAAAAABqg/-r5Py_t7Bd8/s800/qsys_system_console.png,"system console")  
 Fig.2 System Console (input tcl code)
 
 
